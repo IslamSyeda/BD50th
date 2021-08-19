@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Laptop deals display",
+        "description": "",
+        "id": "deals-page-functionality;verify-laptop-deals-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1976515500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Application \"\u003cURl\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURl\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDef_Homepeg.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2990023400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click PC deals",
+            "match": {
+              "location": "StepDef_Deals.click_PC_deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1890698000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Laptop deals",
+            "match": {
+              "location": "StepDef_Deals.click_Laptop_deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157542600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Laptop deals display",
+            "match": {
+              "location": "StepDef_Deals.verify_Laptop_deals_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TN"
+          }
+        ]
+      }
+    ],
+    "name": "Deals Page Functionality",
+    "description": "",
+    "id": "deals-page-functionality",
+    "keyword": "Feature",
+    "uri": "Deals.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify search result display",
+        "description": "",
+        "id": "home-page;verify-search-result-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 954507700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDef_Homepeg.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163558600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter samsung tv in search field",
+            "match": {
+              "location": "StepDef_Homepeg.enter_samsung_tv_in_search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1894602600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click search",
+            "match": {
+              "location": "StepDef_Homepeg.click_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125226500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify search result display",
+            "match": {
+              "location": "StepDef_Homepeg.Verify_search_result_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TD"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "HomeMD.feature"
+  }
+]
